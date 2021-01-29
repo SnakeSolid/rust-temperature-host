@@ -1,0 +1,19 @@
+[package]
+name = "temperature-host"
+version = "0.1.0"
+authors = ["Anton Shabanov <snakesolid@ngs.ru>"]
+edition = "2018"
+
+[dependencies]
+env_logger = "0.8"
+iron = "0.6"
+log = "0.4"
+mount = "0.4"
+staticfile = "0.5"
+structopt = "0.2"
+time = "0.2"
+
+[dependencies.serialport]
+version = "4.0"
+default-features = false
+features = [ ]
